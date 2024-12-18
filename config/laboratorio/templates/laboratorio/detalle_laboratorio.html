@@ -1,0 +1,5 @@
+<h2>{{ laboratorio.nombre }}</h2>
+<p>Ciudad: {{ laboratorio.ciudad }}</p>
+<p>País: {{ laboratorio.pais }}</p>
+<a href="{% url 'laboratorio:editar_laboratorio' laboratorio.id %}">Editar</a>
+<a href="{% url 'laboratorio:lista_laboratorios' %}">Volver a la lista</a>

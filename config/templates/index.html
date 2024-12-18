@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio</title>
+</head>
+<body>
+    <h1>Bienvenido al Sistema de Gestión de Laboratorios</h1>
+    <p>Elige una opción:</p>
+    <ul>
+        <li><a href="{% url 'laboratorio:lista_laboratorios' %}">Ver Laboratorios</a></li>
+    </ul>
+</body>
+</html>
